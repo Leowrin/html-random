@@ -1,0 +1,28 @@
+body{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+cursor: url('shrersh.png') 64 50, default;
+}
+
+.startbutton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 50px;
+  margin-left: -50px;
+  margin-top: -50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: red;
+}
+
+.tocastrate{
+  width: 68px;
+  height: 82px;
+  position: absolute;
+  left: 1000px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="content/style.css">
+  <script src="content/script.js"></script>
+  <title>The Great Baston between Shrersh & Kerek</title>
+</head>
+<body id="maindiv" onload="load()">
+<a href="https://twitter.com/Ozaiwryn" style="font-family:'Comic Sans MS';">@Ozaï</a><p style="font-family:'Comic Sans MS';position:absolute; right:0px; bottom:0px;">Final Version !</p>
+    <div onclick="startgame()" class="startbutton" id="startbutton">
+        <p id="starttext">Start !</p>
+        <audio id="myAudio">
+          <source src="content/music.mp3" type="audio/mpeg">
+        </audio>
+        <script> //GARDER LE SCRIPT DANS LA DIV
+        var e = document.getElementById('startbutton');
+        var son = document.getElementById("myAudio");
+        var lvldone = false;
+        function startgame() {
+          if (lvldone==false) {
+            lvldone=true;
+            e.style.backgroundColor = "cyan";
+            document.getElementById("starttext").innerHTML = "Starting in 1 sec.";
+            son.play();
+            son.volume = 0.3;
+            setTimeout(back, 1150);
+            setTimeout(kerekstart, 1150);
+          }
+        }
+
+
+        </script>
+    </div>
+
+    <div id="tocastrate" onclick="kerekstart();audio2();" class="tocastrate">
+
+      <audio id="sound">
+        <source src="content/sound.mp3" type="audio/mpeg">
+      </audio>
+      <script> //GARDER LE SCRIPT DANS LA DIV
+      var sound = document.getElementById("sound");
+      function audio2() {
+        sound.pause();
+        sound.currentTime = 0;
+        sound.play();
+        }
+      </script>
+
+    </div>
+
+
+</body>
+</html>
