@@ -1,0 +1,57 @@
+ * {
+	color: rgb(248,240,230);
+	font-size: 1em;
+	font-family: Helvetica;
+  cursor: url(filthy.png), default;
+}
+
+body {
+	background-color: rgb(39,40,34);
+
+}
+
+mark {
+	color :rgb(248,240,230);
+	background: rgb(39,40,34);
+	font-size: 1.5em;
+}
+
+hr {
+	width: 80%;
+}
+
+
+
+.liensympas{
+	font-family: Helvetica;
+	font-style: italic;
+	color :rgb(245,255,230);
+}
+
+.pqpas{
+	text-align: center;
+}
+
+.textlien2{
+	text-align: center;
+}
+
+.textprincipal{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.title1 {
+	line-height: 2;
+	font-size: 1.1em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.singe {
+	cursor: not-allowed;
+}
+.liste1:hover{
+  background-image: url(hover-back.jpg);
+  background-image:
+}
