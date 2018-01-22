@@ -1,0 +1,23 @@
+* {
+  height: 100%;
+  width: 100%;
+  color: rgba(248, 240, 230, 1);
+  font-family: Helvetica;
+}
+
+body {
+  background-color: rgb(25, 20, 20);
+  top: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20%;
+  min-height: 120px;
+  width: 100%;
+  background-color: rgb(255, 250, 250);
+}
